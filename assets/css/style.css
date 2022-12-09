@@ -397,17 +397,22 @@ h6 {
 
 #hero h1 {
   margin: 0;
+  padding: 10px;
   font-size: 48px;
   font-weight: 900;
   line-height: 56px;
   text-transform: uppercase;
   color: #382a29;
+  background-color: #ffa38498;
 }
 
 #hero h2 {
   color: #382a29;
+  background-color: #ffa38498;
   margin: 10px 0 0 0;
+  padding: 10px;
   font-size: 24px;
+  font-weight: bold;
 }
 
 #hero .btn-get-started {
