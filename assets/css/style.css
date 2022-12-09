@@ -88,13 +88,13 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  background: #1977cc;
+  background: #82aa8f;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #1c84e3;
+  background: #f2ae1d;
   color: #fff;
 }
 
