@@ -398,14 +398,14 @@ h6 {
 #hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 56px;
   text-transform: uppercase;
-  color: #2c4964;
+  color: #382a29;
 }
 
 #hero h2 {
-  color: #2c4964;
+  color: #382a29;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -702,7 +702,7 @@ section {
 }
 
 .about .icon-box .title a:hover {
-  color: #1977cc;
+  color: #82aa8f;
 }
 
 .about .icon-box .description {
@@ -926,6 +926,14 @@ section {
   border-color: #82aa8f;
 }
 
+.departments a {
+  color: #82aa8f;
+}
+
+.departments a:hover {
+  color: #f2ae1d;
+}
+
 .departments .tab-pane.active {
   -webkit-animation: fadeIn 0.5s ease-out;
   animation: fadeIn 0.5s ease-out;
@@ -1036,7 +1044,7 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #a0bcd5;
+  background: #82aa8f;
 }
 
 .doctors .member .social a i {
@@ -1046,7 +1054,7 @@ section {
 }
 
 .doctors .member .social a:hover {
-  background: #1977cc;
+  background: #f2ae1d;
 }
 
 .doctors .member .social a+a {
@@ -1153,43 +1161,17 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact .info {
-  width: 100%;
-  background: #fff;
+#contact a {
+  color: #82aa8f;
+}
+
+#contact a:hover {
+  color: #f2ae1d;
 }
 
 .contact i {
   color: #ffa384;
   font-size: 32px;
-}
-
-.contact .info i {
-  font-size: 20px;
-  color: #1977cc;
-  float: left;
-  width: 44px;
-  height: 44px;
-  background: #d6e9fa;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-}
-
-.contact .info h4 {
-  padding: 0 0 0 60px;
-  font-size: 22px;
-  font-weight: 600;
-  margin-bottom: 5px;
-  color: #2c4964;
-}
-
-.contact .info p {
-  padding: 0 0 0 60px;
-  margin-bottom: 0;
-  font-size: 14px;
-  color: #4b7dab;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1267,7 +1249,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #1c84e3;
+  color: #82aa8f;
   font-size: 18px;
   line-height: 1;
 }
@@ -1291,13 +1273,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #1977cc;
+  color: #82aa8f;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1977cc;
+  background: #82aa8f;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1310,7 +1292,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #1c84e3;
+  background: #d3fba3;
   color: #fff;
   text-decoration: none;
 }
